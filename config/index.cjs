@@ -14,12 +14,12 @@ const USER_CONFIG = {
   APP_SECRET: 'bf1413fb04f407d70241b95080cbb9e7',
 
   PROVINCE: '上海市',
-  CITY: '浦东新区',
+  CITY: '上海市-浦东新区',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆',
+      name: '亲爱的老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oSFB95tKKffUjS2JWZqbU5g4Yne0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -30,10 +30,6 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '老婆', year: '1995', date: '08-04',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '老婆', year: '1995', date: '08-29',
         },
         {
           type: '节日', name: '相识纪念日', year: '2010', date: '07-01',
@@ -57,7 +53,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oSFB95tKKffUjS2JWZqbU5g4Yne0',
     }
   ],
 
